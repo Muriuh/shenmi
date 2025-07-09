@@ -1,0 +1,216 @@
+local G2L = {};
+
+-- StarterGui.ScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["IgnoreGuiInset"] = true;
+G2L["1"]["ScreenInsets"] = Enum.ScreenInsets.DeviceSafeInsets;
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.ScreenGui.StyleLink
+G2L["2"] = Instance.new("StyleLink", G2L["1"]);
+-- [ERROR] cannot convert StyleSheet, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+
+
+-- StarterGui.ScreenGui.Soundfalse
+G2L["3"] = Instance.new("Sound", G2L["1"]);
+G2L["3"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["3"]["Name"] = [[Soundfalse]];
+G2L["3"]["SoundId"] = [[rbxassetid://3779045779]];
+
+
+-- StarterGui.ScreenGui.LocalScript
+G2L["4"] = Instance.new("LocalScript", G2L["1"]);
+
+
+
+-- StarterGui.ScreenGui.CanvasGroup
+G2L["5"] = Instance.new("CanvasGroup", G2L["1"]);
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["Size"] = UDim2.new(0.52292, 0, 0.5709, 0);
+G2L["5"]["Position"] = UDim2.new(0.23854, 0, 0.24838, 0);
+G2L["5"]["BackgroundTransparency"] = 0.2;
+
+
+-- StarterGui.ScreenGui.CanvasGroup.UICorner
+G2L["6"] = Instance.new("UICorner", G2L["5"]);
+G2L["6"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.top
+G2L["7"] = Instance.new("TextLabel", G2L["5"]);
+G2L["7"]["TextWrapped"] = true;
+G2L["7"]["TextScaled"] = true;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(253, 251, 255);
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["BackgroundTransparency"] = 0.95;
+G2L["7"]["RichText"] = true;
+G2L["7"]["Size"] = UDim2.new(1, 0, 0.14448, 0);
+G2L["7"]["Text"] = [[skibidi script]];
+G2L["7"]["Name"] = [[top]];
+
+
+-- StarterGui.ScreenGui.CanvasGroup.TextBox
+G2L["8"] = Instance.new("TextBox", G2L["5"]);
+G2L["8"]["CursorPosition"] = -1;
+G2L["8"]["TextWrapped"] = true;
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["TextScaled"] = true;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(19, 19, 19);
+G2L["8"]["RichText"] = true;
+G2L["8"]["Size"] = UDim2.new(0.6753, 0, 0.25974, 0);
+G2L["8"]["Position"] = UDim2.new(0.16235, 0, 0.36901, 0);
+G2L["8"]["Text"] = [[1111]];
+
+
+-- StarterGui.ScreenGui.CanvasGroup.TextBox.UICorner
+G2L["9"] = Instance.new("UICorner", G2L["8"]);
+G2L["9"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.TextBox.UIStroke
+G2L["a"] = Instance.new("UIStroke", G2L["8"]);
+G2L["a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["a"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.TextLabel
+G2L["b"] = Instance.new("TextLabel", G2L["5"]);
+G2L["b"]["TextWrapped"] = true;
+G2L["b"]["TextScaled"] = true;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(253, 251, 255);
+G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b"]["BackgroundTransparency"] = 1;
+G2L["b"]["RichText"] = true;
+G2L["b"]["Size"] = UDim2.new(1, 0, 0.14448, 0);
+G2L["b"]["Text"] = [[        Կ]];
+G2L["b"]["Position"] = UDim2.new(0, 0, 0.18994, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.truebutton
+G2L["c"] = Instance.new("TextButton", G2L["5"]);
+G2L["c"]["TextWrapped"] = true;
+G2L["c"]["TextScaled"] = true;
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["c"]["Size"] = UDim2.new(0.34761, 0, 0.16396, 0);
+G2L["c"]["Text"] = [[ȷ  ]];
+G2L["c"]["Name"] = [[truebutton]];
+G2L["c"]["Position"] = UDim2.new(0.3257, 0, 0.75162, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.truebutton.UICorner
+G2L["d"] = Instance.new("UICorner", G2L["c"]);
+G2L["d"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.UIStroke
+G2L["e"] = Instance.new("UIStroke", G2L["5"]);
+G2L["e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+G2L["e"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.if
+G2L["f"] = Instance.new("TextLabel", G2L["5"]);
+G2L["f"]["TextWrapped"] = true;
+G2L["f"]["TextScaled"] = true;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(253, 251, 255);
+G2L["f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["BackgroundTransparency"] = 1;
+G2L["f"]["RichText"] = true;
+G2L["f"]["Size"] = UDim2.new(1, 0, 0.12338, 0);
+G2L["f"]["Text"] = [[]];
+G2L["f"]["Name"] = [[if]];
+G2L["f"]["Position"] = UDim2.new(-0.001, 0, 0.62825, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.getout
+G2L["10"] = Instance.new("ImageButton", G2L["5"]);
+-- [ERROR] cannot convert HoverImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["10"]["BackgroundTransparency"] = 1;
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["10"]["Image"] = [[rbxassetid://11293978956]];
+G2L["10"]["Size"] = UDim2.new(0.0996, 0, 0.16234, 0);
+G2L["10"]["HoverImage"] = [[rbxassetid://11293978956]];
+G2L["10"]["Name"] = [[getout]];
+G2L["10"]["Position"] = UDim2.new(0.87749, 0, -0.00974, 0);
+
+
+-- StarterGui.ScreenGui.CanvasGroup.getout.Sound
+G2L["11"] = Instance.new("Sound", G2L["10"]);
+G2L["11"]["Volume"] = 1;
+G2L["11"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["11"]["SoundId"] = [[rbxassetid://18900008907]];
+
+
+-- StarterGui.ScreenGui.Soundtrue
+G2L["12"] = Instance.new("Sound", G2L["1"]);
+G2L["12"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["12"]["Name"] = [[Soundtrue]];
+G2L["12"]["SoundId"] = [[rbxassetid://1293433423]];
+
+
+-- StarterGui.ScreenGui.img
+G2L["13"] = Instance.new("ImageLabel", G2L["1"]);
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["13"]["Image"] = [[rbxassetid://10798763378]];
+G2L["13"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["13"]["Visible"] = false;
+G2L["13"]["Name"] = [[img]];
+
+
+-- StarterGui.ScreenGui.memesound
+G2L["14"] = Instance.new("Sound", G2L["1"]);
+G2L["14"]["Volume"] = 1;
+G2L["14"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["14"]["Name"] = [[memesound]];
+G2L["14"]["SoundId"] = [[rbxassetid://18655974381]];
+
+
+-- StarterGui.ScreenGui.LocalScript
+local function C_4()
+local script = G2L["4"];
+	local runservice = game:GetService("RunService")
+	local players = game:GetService("Players")
+	local plr = players.LocalPlayer
+	local frame = script.Parent:WaitForChild("CanvasGroup")
+	local truebutton = frame:WaitForChild("truebutton")
+	local key = frame:WaitForChild("TextBox")
+	local sound = script.Parent:WaitForChild("Soundtrue")
+	local iftext = frame:WaitForChild("if")
+	local errorsound = script.Parent:WaitForChild("Soundfalse")
+	local meme = script.Parent:WaitForChild("memesound")
+	local img = script.Parent:WaitForChild("img")
+	local getout = frame:WaitForChild("getout")
+	local keys = "iamstupidniga"
+	
+	getout.MouseButton1Click:Connect(function()
+		getout.Sound:Play()
+		img.Visible = true
+		task.wait(1)
+		plr:Kick("GET OUT")
+	end)
+	
+	
+	truebutton.MouseButton1Click:Connect(function()
+		if key.Text == keys then
+			iftext.Text = "  ȷ"
+			iftext.TextColor3 = Color3.new(0, 0.333333, 0)
+			for i = 1 ,3 do
+				task.wait(1)
+				sound:Play()
+			end
+			img.Visible = true
+			meme:Play()
+			plr:Kick("ɵ  ")
+		else
+			iftext.Text = "    "
+			iftext.TextColor3 = Color3.new(1, 0, 0)
+			errorsound:Play()
+		end
+	end)
+end;
+task.spawn(C_4);
+
+return G2L["1"], require;
