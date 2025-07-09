@@ -95,7 +95,7 @@ G2L["c"]["TextScaled"] = true;
 G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
 G2L["c"]["Size"] = UDim2.new(0.34761, 0, 0.16396, 0);
-G2L["c"]["Text"] = [[ȷ  ]];
+G2L["c"]["Text"] = [[确认]];
 G2L["c"]["Name"] = [[truebutton]];
 G2L["c"]["Position"] = UDim2.new(0.3257, 0, 0.75162, 0);
 
@@ -195,7 +195,7 @@ local script = G2L["4"];
 	
 	truebutton.MouseButton1Click:Connect(function()
 		if key.Text == keys then
-			iftext.Text = "  ȷ"
+			iftext.Text = "正确"
 			iftext.TextColor3 = Color3.new(0, 0.333333, 0)
 			for i = 1 ,3 do
 				task.wait(1)
@@ -203,9 +203,9 @@ local script = G2L["4"];
 			end
 			img.Visible = true
 			meme:Play()
-			plr:Kick("ɵ  ")
+			plr:Kick("傻逼")
 		else
-			iftext.Text = "    "
+			iftext.Text = "错误"
 			iftext.TextColor3 = Color3.new(1, 0, 0)
 			errorsound:Play()
 		end
