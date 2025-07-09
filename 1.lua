@@ -84,7 +84,7 @@ G2L["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b"]["BackgroundTransparency"] = 1;
 G2L["b"]["RichText"] = true;
 G2L["b"]["Size"] = UDim2.new(1, 0, 0.14448, 0);
-G2L["b"]["Text"] = [[        Կ]];
+G2L["b"]["Text"] = [[请输入密钥]];
 G2L["b"]["Position"] = UDim2.new(0, 0, 0.18994, 0);
 
 
