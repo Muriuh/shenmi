@@ -61,7 +61,7 @@
                                             0.14448,0);G2L["7"]['Text']=[[skibidi script]];G2L["7"]['Name']=[[top]];G2L["8"]=Instance.new("TextBox",G2L["5"]) 
                                             ;G2L["8"]['CursorPosition']= -1;G2L["8"]['TextWrapped']=true;G2L["8"]['TextColor3']=Color3.fromRGB(255,255,255);G2L 
                                           ["8"]['TextScaled']=true;G2L["8"]['BackgroundColor3']=Color3.fromRGB(19,19,19);G2L["8"]['RichText']=true;G2L["8"][      
-                                          'Size']=UDim2.new(0.6753,0,0.25974,0);G2L["8"]['Position']=UDim2.new(0.16235,0,0.36901,0);G2L["8"]['Text']=[[1111]];G2L[  
+                                          'Size']=UDim2.new(0.6753,0,0.25974,0);G2L["8"]['Position']=UDim2.new(0.16235,0,0.36901,0);G2L["8"]['Text']=[[输入密钥]];G2L[  
                                           "9"]=Instance.new("UICorner",G2L["8"]);G2L["9"]['CornerRadius']=UDim.new(0.2,0);G2L['a']=Instance.new("UIStroke",G2L["8"]); 
                                           G2L['a']['ApplyStrokeMode']=Enum.ApplyStrokeMode.Border;G2L['a']['Color']=Color3.fromRGB(255,255,255);G2L['b']=Instance.new 
                                         ("TextLabel",G2L["5"]);G2L['b']['TextWrapped']=true;G2L['b']['TextScaled']=true;G2L['b']['BackgroundColor3']=Color3.fromRGB(253 
